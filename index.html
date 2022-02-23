@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/memo.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/quote.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      as="font"
+      rel="preload"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div class="login-form">
+        <div class="profile-photo">
+          <img class="profile-img" />
+        </div>
+        <span class="user-name"></span>
+        <form class="form">
+          <input
+            class="login-id"
+            type="text"
+            placeholder="WRITE AND PRESS ENTER"
+            required
+          />
+        </form>
+        <button class="login-button hidden">Log In</button>
+      </div>
+    </div>
+
+    <!--memo.js from here-->
+
+    <div class="memo-form hidden">
+      <div class="userinfo">
+        <div><img class="memo-profile-img" /></div>
+        <div><span class="memo-user-name"></span></div>
+      </div>
+      <div class="todo-box">
+        <form class="todo-form">
+          <input type="text" required placeholder="Write a To Do" />
+        </form>
+        <ul class="todo-list"></ul>
+      </div>
+      <div class="clock-quote">
+        <div>
+          <span class="clock"></span>
+        </div>
+        <div class="quote-box">
+          <div class="quote1">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="quote2">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="quote3">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="quote4">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="quote5">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="lottie"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.8.1/lottie.min.js"
+      integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/lottie.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/memo.js"></script>
+  </body>
+</html>
