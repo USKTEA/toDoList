@@ -4,3 +4,11 @@
 .clock {
   font-size: 60px;
 }
+
+#clock-box {
+  box-sizing: border-box;
+  background-color: #aaaaff;
+  border-radius: 10px;
+  width: 265px;
+  padding: 10px;
+}
